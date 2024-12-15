@@ -1,4 +1,6 @@
 from django.contrib import admin
-from .models import *
+from .models import Person, User
+
+admin.register(Person, User)
 
 
